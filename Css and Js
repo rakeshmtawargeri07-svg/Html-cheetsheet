@@ -1,0 +1,50 @@
+# Connecting HTML with CSS and JavaScript
+
+## Project Structure
+
+```
+project/
+│── index.html
+│── style.css
+└── script.js
+```
+
+## Connect CSS
+
+Add this inside the `<head>` section of `index.html`:
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+## Connect JavaScript
+
+Add this before the closing `</body>` tag:
+
+```html
+<script src="script.js"></script>
+```
+
+## Complete Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hello World!</h1>
+    <button>Click Me</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+### Explanation
+- `href="style.css"` connects the CSS file to style the webpage.
+- `src="script.js"` connects the JavaScript file to add functionality.
+- Keep all three files (`index.html`, `style.css`, and `script.js`) in the same folder unless you specify a different path.
