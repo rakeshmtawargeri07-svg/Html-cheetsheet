@@ -27,7 +27,7 @@ Add this before the closing `</body>` tag:
 
 ## Complete Example
 
-```html
+```html.  
 <!DOCTYPE html>
 <html>
 <head>
